@@ -17,18 +17,18 @@
                 <h1>Login</h1>
                 <p> Bem-vindo(a)</p>
                 <form action="login.php" method="post">
-                    <div>
-                        <i class="material-symbols-outlined">person</i>
-                        <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required autocomplete="email">
+                    <div class="campo-container">
+                        <i id="icon" class="material-symbols-outlined">person</i>
+                        <input class="campo" type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required autocomplete="email">
                         <label for="iemail"></label>
                     </div>
-                    <div>
-                        <i class="material-symbols-outlined">key</i>
-                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required autocomplete="current-password">
+                    <div class="campo-container">
+                        <i id="icon" class="material-symbols-outlined">key</i>
+                        <input class="campo" type="password" name="senha" id="isenha" placeholder="Digite sua senha" required autocomplete="current-password">
                         <label for="isenha"></label>
                     </div>
-                    <button type="submit">Entrar</button>
-                    <a href="esqueci.html">Esqueci a senha</a>
+                    <button id="btn-submit" type="submit">Entrar</button>
+                    <button id="btn-reset" type="reset"> Esqueci a senha</button>
                 </form>
             </div>
         </section>

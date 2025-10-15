@@ -9,9 +9,9 @@
 /*COLOCANDO RESPONSIVIDADEPARA TELA*/
 /*PARA TABLETS*/
 @media screen  and (min-width: 768px) and (max-width: 992px){
-    body{
-        background-image: linear-gradient(to right, #9b91ac, #7F66A3);
-    }
+    body {  background-color: #F9F9F9;
+
+}
     div#formulario h1{
         text-align: center;
         color: var(--cor-roxo-escuro);
@@ -23,13 +23,22 @@
         color: #8f8d8d;
         margin-bottom: 20px;
         font-size: 0.9em;
-}
-    #login{
+    }
+    .campo{
         width: 90%;
+    }
+    section#login > div#formulario{
+    border-radius: 4px;
+        display: block;
+    }
+    #login{
+        width: 70%;
+        height: 350px;
     }
     section#login > div#img{ /*fazendo isso, para ficar um do lado do outro*/
         float: left;
         width: 40%;
+        height: 100%;
     }
     section#login > div#formulario{ /*fazendo isso, para ficar um do lado do outro*/
         float: right;
@@ -38,9 +47,8 @@
     
 }
 @media screen  and (min-width: 992px) and (max-width: 1200px){
-    body{
-        background-image: linear-gradient(to right, #a59bb4, #7a60a0);
-    }
+    body {  background-color: #F9F9F9;
+}
     div#formulario h1{
         text-align: center;
         color: var(--cor-roxo-escuro);
@@ -52,24 +60,30 @@
         color: #8f8d8d;
         margin-bottom: 20px;
         font-size: 1em;
+    }/*
+    .campo{
+        width: 91%;
+    }*/
+    section#login > div#formulario{
+    border-radius: 4px;
     }
     #login{
-        width: 950px; /*isso para parar de crescer, ñ ficar mt longo*/
+        width: 700px; /*isso para parar de crescer, ñ ficar mt longo*/
+        height: 370px;
     }
     section#login > div#img{ /*fazendo isso, para ficar um do lado do outro*/
         float: left;
-        width: 50%;
+        width: 45%;
+        height: 100%;
     }
     section#login > div#formulario{ /*fazendo isso, para ficar um do lado do outro*/
         float: right;
-        width: 50%;
+        width: 55%;
     }
     
 }
 @media screen  and (min-width: 1200px) {
-    body{
-        background-image: linear-gradient(to right, #a99eb9, #8368ac);
-    }
+    body {  background-color: #F9F9F9; }
     div#formulario h1{
         text-align: center;
         color: var(--cor-roxo-escuro);
@@ -81,17 +95,27 @@
         color: #8f8d8d;
         margin-bottom: 20px;
         font-size: 1em;
+    }/*
+     .campo{
+        width: 90%;
+    }*/
+    section#login > div#formulario{
+    border-radius: 4px;
     }
     #login{
-        width: 950px; /*isso para parar de crescer, ñ ficar mt longo*/
+        width: 800px; /*isso para parar de crescer, ñ ficar mt longo*/
+        height: 385px;
+
     }
     section#login > div#img{ /*fazendo isso, para ficar um do lado do outro*/
         float: left;
-        width: 50%;
+        width: 45%;
+        height: 100%;
     }
     section#login > div#formulario{ /*fazendo isso, para ficar um do lado do outro*/
         float: right;
-        width: 50%;
+        width: 55%;
     }
     
 }
+   
