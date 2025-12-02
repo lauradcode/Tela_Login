@@ -41,7 +41,7 @@ main{
 section#login > div#img{
     display: block;
     width: 100%;
-    background: black url(../img/fundo.jpg) no-repeat center;
+    background: #dad3d3 url(../img/fundo.jpg) no-repeat center;
     background-size: cover;
     height: 200px;
     outline: none;
