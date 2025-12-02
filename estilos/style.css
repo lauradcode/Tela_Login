@@ -32,7 +32,7 @@ main{
     width: 250px;
     height: 500px;
     border-radius: 15px;
-    box-shadow: 1px 1px 10px rgba(49, 49, 49, 0.089);
+    box-shadow: 50px 50px 50px rgba(14, 13, 13, 0.089);
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease-in-out;
 
